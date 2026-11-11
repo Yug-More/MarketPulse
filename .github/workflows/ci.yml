@@ -96,3 +96,6 @@ jobs:
         run: |
           python scripts/scientific_verification.py
           python scripts/verify_comparison_families.py
+
+      - name: Enforce frozen application metrics and evidence hashes
+        run: python -m marketpulse.frozen_metrics verify
