@@ -95,8 +95,11 @@ by passing software checks.
 
 The feature branch uses `Yug-More <yugmore20@gmail.com>` for author and committer.
 No history rewrite, force push, empty commit, or tool co-author attribution is used.
-The finalization pull request records the exact commits, remote CI outcomes and
-merge state. This report will be amended with the PR URL before release acceptance.
+The finalization [pull request #18](https://github.com/Yug-More/MarketPulse/pull/18)
+records hosted CI and merge state. The implementation commit is `174ee32` and the
+research handoff/evidence commit is `0a8b911`; both author and committer identities
+were verified. The PR is the release record for subsequent documentation commits,
+the merge commit and post-merge CI, avoiding a self-referential commit hash here.
 Post-merge state must be verified from remote main; a local test run alone is not
 proof of merge or successful hosted CI.
 
