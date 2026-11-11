@@ -1,0 +1,71 @@
+{
+  "python": "3.13.2 (v3.13.2:4f8bb3947cf, Feb  4 2025, 11:51:10) [Clang 15.0.0 (clang-1500.3.9.4)]",
+  "platform": "macOS-14.5-arm64-arm-64bit-Mach-O",
+  "checks": [
+    {
+      "command": [
+        "python",
+        "scripts/final_synthesis.py",
+        "verify"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 1.0459675830061315
+    },
+    {
+      "command": [
+        "python",
+        "scripts/publication_assets.py",
+        "verify"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 0.8475473750004312
+    },
+    {
+      "command": [
+        "python",
+        "scripts/manuscript.py",
+        "verify"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 1.0430267920019105
+    },
+    {
+      "command": [
+        "python",
+        "scripts/verify_manuscript_pdf.py"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 0.9475701659976039
+    },
+    {
+      "command": [
+        "python",
+        "scripts/scientific_verification.py",
+        "--output",
+        "results/finalization/scientific_verification.json"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 12.559684624997317
+    },
+    {
+      "command": [
+        "python",
+        "scripts/verify_comparison_families.py",
+        "--output",
+        "results/finalization/comparison_families.json"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 0.3254367909976281
+    },
+    {
+      "command": [
+        "python",
+        "-m",
+        "marketpulse.frozen_metrics",
+        "verify"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 0.9189978750073351
+    }
+  ]
+}

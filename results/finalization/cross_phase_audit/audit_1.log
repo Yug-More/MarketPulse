@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "<repository>/scripts/verify_walkforward.py", line 167, in <module>
+    main()
+    ~~~~^^
+  File "<repository>/scripts/verify_walkforward.py", line 48, in main
+    raise AssertionError("source, configuration, or data differ from the saved manifest")
+AssertionError: source, configuration, or data differ from the saved manifest

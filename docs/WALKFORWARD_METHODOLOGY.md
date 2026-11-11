@@ -56,8 +56,9 @@ validation RMSE, smaller depth on ties. LSTM: lookback 20, hidden size in
 best validation epoch and choose lowest validation RMSE, smaller size on
 ties. Test rows never select a depth, hidden size, epoch, or scaler.
 Seed 171 is fixed for Python/NumPy/PyTorch and scikit-learn. CPU execution
-and forest `n_jobs=1` bound resources. One seed is used: the proposed
-multi-seed robustness study has not been performed. LSTM checkpoint metadata
+and forest `n_jobs=1` bound resources. The canonical full-history study uses one
+seed. Subsequent five-seed sensitivity covers selected folds only; see
+[the expanded robustness study](PHASE10_ROBUSTNESS.md). LSTM checkpoint metadata
 is stored (selected size, best epoch, history), but fitted weights are not
 serialized; reproduction requires retraining. No claim of bitwise equality
 across hardware, dependency versions, or thread settings is made.
