@@ -1,0 +1,21 @@
+smoke: 2 walk-forward folds
+NASDAQ-100 horizon 1 fold 12/13: zero_return
+NASDAQ-100 horizon 1 fold 12/13: historical_mean
+NASDAQ-100 horizon 1 fold 12/13: linear_regression
+NASDAQ-100 horizon 1 fold 12/13: random_forest
+NASDAQ-100 horizon 1 fold 12/13: lstm
+NASDAQ-100 horizon 1 fold 13/13: zero_return
+NASDAQ-100 horizon 1 fold 13/13: historical_mean
+NASDAQ-100 horizon 1 fold 13/13: linear_regression
+NASDAQ-100 horizon 1 fold 13/13: random_forest
+NASDAQ-100 horizon 1 fold 13/13: lstm
+<user-home>/.matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /var/folders/57/5_c0gzws2kzbkc1_vj90f8v40000gn/T/matplotlib-0b7xrry8 because there was an issue with the default path (<user-home>/.matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+
+Fontconfig error: No writable cache directories
+	/opt/homebrew/var/cache/fontconfig
+	<user-home>/.cache/fontconfig
+	<user-home>/.fontconfig
+2026-11-10 16:54:09.639 system_profiler[56964:1925953] XType: Using static font registry.
+Matplotlib is building the font cache; this may take a moment.
+wrote /tmp/marketpulse-final-neural-smoke

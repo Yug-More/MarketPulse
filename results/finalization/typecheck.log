@@ -1,0 +1,53 @@
+src/marketpulse/scientific_review.py:223: error: Incompatible types in assignment (expression has type "str", variable has type "Path")  [assignment]
+src/marketpulse/scientific_review.py:258: error: Need type annotation for "nesting" (hint: "nesting: dict[<type>, <type>] = ...")  [var-annotated]
+src/marketpulse/data/cli.py:65: error: Incompatible types in assignment (expression has type "dict[str, object]", variable has type "dict[str, list[dict[str, Collection[str]]]]")  [assignment]
+src/marketpulse/data/cli.py:82: error: Value of type "Collection[str]" is not indexable  [index]
+src/marketpulse/experiments/figures.py:81: error: "object" has no attribute "subplots"  [attr-defined]
+src/marketpulse/experiments/figures.py:106: error: "object" has no attribute "close"  [attr-defined]
+src/marketpulse/experiments/figures.py:112: error: "object" has no attribute "subplots"  [attr-defined]
+src/marketpulse/experiments/figures.py:131: error: "object" has no attribute "close"  [attr-defined]
+src/marketpulse/experiments/figures.py:137: error: "object" has no attribute "subplots"  [attr-defined]
+src/marketpulse/experiments/figures.py:160: error: "object" has no attribute "close"  [attr-defined]
+src/marketpulse/experiments/figures.py:175: error: "object" has no attribute "subplots"  [attr-defined]
+src/marketpulse/experiments/figures.py:204: error: "object" has no attribute "close"  [attr-defined]
+src/marketpulse/experiments/figures.py:215: error: "object" has no attribute "subplots"  [attr-defined]
+src/marketpulse/experiments/figures.py:243: error: "object" has no attribute "close"  [attr-defined]
+src/marketpulse/experiments/benchmark.py:275: error: Argument 2 to "add_model" has incompatible type "object"; expected "ndarray[tuple[Any, ...], dtype[Any]]"  [arg-type]
+src/marketpulse/experiments/benchmark.py:275: error: Argument 4 to "add_model" has incompatible type "object"; expected "dict[str, object]"  [arg-type]
+src/marketpulse/experiments/recovery.py:139: error: No overload variant of "assert_allclose" matches argument types "Any", "object", "float", "float"  [call-overload]
+src/marketpulse/experiments/recovery.py:139: note: Possible overload variants:
+src/marketpulse/experiments/recovery.py:139: note:     def assert_allclose(actual: _SupportsArray[dtype[numpy.bool[builtins.bool] | integer[Any] | timedelta64[Any]]] | _NestedSequence[_SupportsArray[dtype[numpy.bool[builtins.bool] | integer[Any] | timedelta64[Any]]]] | int | _NestedSequence[int], desired: _SupportsArray[dtype[numpy.bool[builtins.bool] | integer[Any] | timedelta64[Any]]] | _NestedSequence[_SupportsArray[dtype[numpy.bool[builtins.bool] | integer[Any] | timedelta64[Any]]]] | int | _NestedSequence[int], rtol: float | floating[Any] | integer[Any] | numpy.bool[builtins.bool] = ..., atol: float | floating[Any] | integer[Any] | numpy.bool[builtins.bool] | timedelta64[Any] = ..., equal_nan: bool = ..., err_msg: object = ..., verbose: bool = ..., *, strict: bool = ...) -> None
+src/marketpulse/experiments/recovery.py:139: note:     def assert_allclose(actual: _SupportsArray[dtype[numpy.bool[builtins.bool] | number[Any, Any]]] | _NestedSequence[_SupportsArray[dtype[numpy.bool[builtins.bool] | number[Any, Any]]]] | complex | _NestedSequence[complex] | _SupportsArray[dtype[object_]] | _NestedSequence[_SupportsArray[dtype[object_]]], desired: _SupportsArray[dtype[numpy.bool[builtins.bool] | number[Any, Any]]] | _NestedSequence[_SupportsArray[dtype[numpy.bool[builtins.bool] | number[Any, Any]]]] | complex | _NestedSequence[complex] | _SupportsArray[dtype[object_]] | _NestedSequence[_SupportsArray[dtype[object_]]], rtol: float | floating[Any] | integer[Any] | numpy.bool[builtins.bool] = ..., atol: float | floating[Any] | integer[Any] | numpy.bool[builtins.bool] = ..., equal_nan: bool = ..., err_msg: object = ..., verbose: bool = ..., *, strict: bool = ...) -> None
+src/marketpulse/experiments/cli.py:85: error: "object" has no attribute "__iter__"; maybe "__dir__" or "__str__"? (not iterable)  [attr-defined]
+src/marketpulse/experiments/walkforward.py:165: error: No overload variant of "int" matches argument type "object"  [call-overload]
+src/marketpulse/experiments/walkforward.py:165: note: Possible overload variants:
+src/marketpulse/experiments/walkforward.py:165: note:     def int(str | Buffer | SupportsInt | SupportsIndex | SupportsTrunc = ..., /) -> int
+src/marketpulse/experiments/walkforward.py:165: note:     def int(str | bytes | bytearray, /, base: SupportsIndex) -> int
+src/marketpulse/experiments/walkforward.py:166: error: No overload variant of "int" matches argument type "object"  [call-overload]
+src/marketpulse/experiments/walkforward.py:166: note: Possible overload variants:
+src/marketpulse/experiments/walkforward.py:166: note:     def int(str | Buffer | SupportsInt | SupportsIndex | SupportsTrunc = ..., /) -> int
+src/marketpulse/experiments/walkforward.py:166: note:     def int(str | bytes | bytearray, /, base: SupportsIndex) -> int
+src/marketpulse/experiments/walkforward.py:167: error: "object" has no attribute "name"  [attr-defined]
+src/marketpulse/experiments/walkforward.py:175: error: "object" has no attribute "name"  [attr-defined]
+src/marketpulse/experiments/walkforward.py:180: error: "object" has no attribute "name"  [attr-defined]
+src/marketpulse/experiments/walkforward.py:181: error: "object" has no attribute "index_id"  [attr-defined]
+src/marketpulse/experiments/walkforward.py:183: error: "object" has no attribute "to_numpy"  [attr-defined]
+src/marketpulse/experiments/walkforward.py:184: error: "object" has no attribute "to_numpy"  [attr-defined]
+src/marketpulse/experiments/walkforward.py:187: error: Value of type "object" is not indexable  [index]
+src/marketpulse/experiments/walkforward.py:193: error: No overload variant of "int" matches argument type "object"  [call-overload]
+src/marketpulse/experiments/walkforward.py:193: note: Possible overload variants:
+src/marketpulse/experiments/walkforward.py:193: note:     def int(str | Buffer | SupportsInt | SupportsIndex | SupportsTrunc = ..., /) -> int
+src/marketpulse/experiments/walkforward.py:193: note:     def int(str | bytes | bytearray, /, base: SupportsIndex) -> int
+src/marketpulse/experiments/walkforward.py:200: error: "object" has no attribute "__iter__"; maybe "__dir__" or "__str__"? (not iterable)  [attr-defined]
+src/marketpulse/experiments/walkforward.py:218: error: "object" has no attribute "train"  [attr-defined]
+src/marketpulse/experiments/walkforward.py:219: error: "object" has no attribute "test"  [attr-defined]
+src/marketpulse/experiments/walkforward.py:223: error: "object" has no attribute "test"  [attr-defined]
+src/marketpulse/experiments/walkforward.py:225: error: "object" has no attribute "test"  [attr-defined]
+src/marketpulse/experiments/walkforward.py:235: error: "object" has no attribute "train"  [attr-defined]
+src/marketpulse/experiments/walkforward.py:239: error: "object" has no attribute "validation"  [attr-defined]
+src/marketpulse/experiments/walkforward.py:240: error: "object" has no attribute "test"  [attr-defined]
+src/marketpulse/experiments/research_figures.py:27: error: "Colormap" has no attribute "colors"  [attr-defined]
+src/marketpulse/experiments/expanded_analysis.py:144: error: Need type annotation for "metrics" (hint: "metrics: list[<type>] = ...")  [var-annotated]
+src/marketpulse/experiments/expanded_analysis.py:144: error: Need type annotation for "folds" (hint: "folds: list[<type>] = ...")  [var-annotated]
+src/marketpulse/experiments/expanded_analysis.py:144: error: Need type annotation for "regimes" (hint: "regimes: list[<type>] = ...")  [var-annotated]
+Found 40 errors in 9 files (checked 52 source files)

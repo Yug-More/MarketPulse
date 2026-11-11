@@ -65,6 +65,11 @@ but not permanently held out.
 
 ## Verified findings
 
+![Baseline-relative MSE skill across models, horizons, and evaluation populations](paper/figures/point_skill.png)
+
+The figure uses saved forecast errors; positive skill means lower MSE than the
+specified baseline. Native and matched populations are distinct descriptive samples.
+
 In native pooled RMSE, random forest ranks first in three of six index/horizon
 cells; a simple baseline ranks first in the other three. No random-forest gain over
 either simple baseline survives the original 18-comparison Holm correction, and no
@@ -124,6 +129,16 @@ explains what can be reconstructed, required tools, and the remaining limits.
 
 ## Research artifacts
 
+- [Frozen application metrics](docs/FINAL_PROJECT_METRICS.md),
+  [graduate application summaries](docs/GRADUATE_APPLICATION_SUMMARY.md), and
+  [final validation report](docs/FINAL_VALIDATION_REPORT.md). The canonical 355,320
+  records represent 71,064 index/horizon origins and 23,726 index/date pairs;
+  none of these counts establishes independent trials. Run
+  `python -m marketpulse.frozen_metrics verify` to check the frozen denominators,
+  pooled scores, and evidence hashes.
+- [Prioritized finalization audit](docs/FINALIZATION_AUDIT.md), including the
+  architecture map and unresolved source/provenance limits.
+
 - [Research manuscript (Markdown)](paper/MarketPulse_Research_Paper.md) and
   [compiled PDF](paper/MarketPulse_Research_Paper.pdf).
 - [Claim-to-evidence audit](paper/CLAIM_EVIDENCE_AUDIT.md), references, source
@@ -144,3 +159,17 @@ The manuscript is a qualified retrospective draft. External scientific review,
 authorship decisions, source-data provenance and rights review, and genuinely
 independent chronological evidence remain necessary before stronger claims or
 submission to a venue.
+
+## Contributors
+
+Yug More (`Yug-More`) and Srihan Cheemangunta (`srihanrc`) contributed to the
+original course project. Git history attributes the NASDAQ notebooks and data to
+Yug More, the S&P notebooks and data to Srihan Cheemangunta, and README work to both.
+Later research development is recorded in the commit history. See
+[contribution boundaries](docs/FINAL_PROJECT_METRICS.md#project-and-contribution-boundaries)
+before using individual application claims.
+
+## License and data rights
+
+The repository has no project license file. Source-data acquisition and
+redistribution rights remain incompletely documented; see [data provenance](data/README.md).

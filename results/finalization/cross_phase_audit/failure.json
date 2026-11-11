@@ -1,0 +1,12 @@
+[
+  {
+    "command": [
+      "python",
+      "scripts/verify_walkforward.py"
+    ],
+    "returncode": 1,
+    "elapsed_seconds": 0.9861695409927052,
+    "log": "audit_1.log",
+    "sha256": "f6d40274c06b62bd1931a8ce1ca6b7319168b35fee020f3cc2c19024d90ac61c"
+  }
+]

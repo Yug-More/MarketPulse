@@ -1,0 +1,8 @@
+{
+  "scope": "finalization logs only",
+  "redactions": {
+    "local repository path": "<repository>",
+    "local home path": "<user-home>"
+  },
+  "failure_log_hashes": "updated after local-path redaction; successful audit logs unchanged"
+}

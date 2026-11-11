@@ -1,0 +1,319 @@
+* Getting build dependencies for sdist...
+running egg_info
+writing src/marketpulse.egg-info/PKG-INFO
+writing dependency_links to src/marketpulse.egg-info/dependency_links.txt
+writing entry points to src/marketpulse.egg-info/entry_points.txt
+writing requirements to src/marketpulse.egg-info/requires.txt
+writing top-level names to src/marketpulse.egg-info/top_level.txt
+reading manifest file 'src/marketpulse.egg-info/SOURCES.txt'
+writing manifest file 'src/marketpulse.egg-info/SOURCES.txt'
+* Building sdist...
+running sdist
+running egg_info
+writing src/marketpulse.egg-info/PKG-INFO
+writing dependency_links to src/marketpulse.egg-info/dependency_links.txt
+writing entry points to src/marketpulse.egg-info/entry_points.txt
+writing requirements to src/marketpulse.egg-info/requires.txt
+writing top-level names to src/marketpulse.egg-info/top_level.txt
+reading manifest file 'src/marketpulse.egg-info/SOURCES.txt'
+writing manifest file 'src/marketpulse.egg-info/SOURCES.txt'
+running check
+creating marketpulse-0.1.0
+creating marketpulse-0.1.0/src/marketpulse
+creating marketpulse-0.1.0/src/marketpulse.egg-info
+creating marketpulse-0.1.0/src/marketpulse/data
+creating marketpulse-0.1.0/src/marketpulse/evaluation
+creating marketpulse-0.1.0/src/marketpulse/experiments
+creating marketpulse-0.1.0/src/marketpulse/models
+creating marketpulse-0.1.0/tests
+copying files to marketpulse-0.1.0...
+copying README.md -> marketpulse-0.1.0
+copying pyproject.toml -> marketpulse-0.1.0
+copying src/marketpulse/__init__.py -> marketpulse-0.1.0/src/marketpulse
+copying src/marketpulse/features.py -> marketpulse-0.1.0/src/marketpulse
+copying src/marketpulse/frozen_metrics.py -> marketpulse-0.1.0/src/marketpulse
+copying src/marketpulse/protocol.py -> marketpulse-0.1.0/src/marketpulse
+copying src/marketpulse/publication.py -> marketpulse-0.1.0/src/marketpulse
+copying src/marketpulse/publication_assets.py -> marketpulse-0.1.0/src/marketpulse
+copying src/marketpulse/py.typed -> marketpulse-0.1.0/src/marketpulse
+copying src/marketpulse/scientific_review.py -> marketpulse-0.1.0/src/marketpulse
+copying src/marketpulse/sequences.py -> marketpulse-0.1.0/src/marketpulse
+copying src/marketpulse/targets.py -> marketpulse-0.1.0/src/marketpulse
+copying src/marketpulse.egg-info/PKG-INFO -> marketpulse-0.1.0/src/marketpulse.egg-info
+copying src/marketpulse.egg-info/SOURCES.txt -> marketpulse-0.1.0/src/marketpulse.egg-info
+copying src/marketpulse.egg-info/dependency_links.txt -> marketpulse-0.1.0/src/marketpulse.egg-info
+copying src/marketpulse.egg-info/entry_points.txt -> marketpulse-0.1.0/src/marketpulse.egg-info
+copying src/marketpulse.egg-info/requires.txt -> marketpulse-0.1.0/src/marketpulse.egg-info
+copying src/marketpulse.egg-info/top_level.txt -> marketpulse-0.1.0/src/marketpulse.egg-info
+copying src/marketpulse/data/__init__.py -> marketpulse-0.1.0/src/marketpulse/data
+copying src/marketpulse/data/__main__.py -> marketpulse-0.1.0/src/marketpulse/data
+copying src/marketpulse/data/catalog.py -> marketpulse-0.1.0/src/marketpulse/data
+copying src/marketpulse/data/cli.py -> marketpulse-0.1.0/src/marketpulse/data
+copying src/marketpulse/data/exceptions.py -> marketpulse-0.1.0/src/marketpulse/data
+copying src/marketpulse/data/loader.py -> marketpulse-0.1.0/src/marketpulse/data
+copying src/marketpulse/data/validation.py -> marketpulse-0.1.0/src/marketpulse/data
+copying src/marketpulse/evaluation/__init__.py -> marketpulse-0.1.0/src/marketpulse/evaluation
+copying src/marketpulse/evaluation/adaptive_calibration.py -> marketpulse-0.1.0/src/marketpulse/evaluation
+copying src/marketpulse/evaluation/calibration.py -> marketpulse-0.1.0/src/marketpulse/evaluation
+copying src/marketpulse/evaluation/metrics.py -> marketpulse-0.1.0/src/marketpulse/evaluation
+copying src/marketpulse/evaluation/partitions.py -> marketpulse-0.1.0/src/marketpulse/evaluation
+copying src/marketpulse/evaluation/preprocessing.py -> marketpulse-0.1.0/src/marketpulse/evaluation
+copying src/marketpulse/evaluation/regimes.py -> marketpulse-0.1.0/src/marketpulse/evaluation
+copying src/marketpulse/evaluation/reliability.py -> marketpulse-0.1.0/src/marketpulse/evaluation
+copying src/marketpulse/evaluation/splits.py -> marketpulse-0.1.0/src/marketpulse/evaluation
+copying src/marketpulse/experiments/__init__.py -> marketpulse-0.1.0/src/marketpulse/experiments
+copying src/marketpulse/experiments/adaptive_study.py -> marketpulse-0.1.0/src/marketpulse/experiments
+copying src/marketpulse/experiments/benchmark.py -> marketpulse-0.1.0/src/marketpulse/experiments
+copying src/marketpulse/experiments/calibration_experiment.py -> marketpulse-0.1.0/src/marketpulse/experiments
+copying src/marketpulse/experiments/cli.py -> marketpulse-0.1.0/src/marketpulse/experiments
+copying src/marketpulse/experiments/expanded_analysis.py -> marketpulse-0.1.0/src/marketpulse/experiments
+copying src/marketpulse/experiments/expanded_seeds.py -> marketpulse-0.1.0/src/marketpulse/experiments
+copying src/marketpulse/experiments/figures.py -> marketpulse-0.1.0/src/marketpulse/experiments
+copying src/marketpulse/experiments/final_synthesis.py -> marketpulse-0.1.0/src/marketpulse/experiments
+copying src/marketpulse/experiments/independent_validation.py -> marketpulse-0.1.0/src/marketpulse/experiments
+copying src/marketpulse/experiments/multiseed.py -> marketpulse-0.1.0/src/marketpulse/experiments
+copying src/marketpulse/experiments/prospective_intake.py -> marketpulse-0.1.0/src/marketpulse/experiments
+copying src/marketpulse/experiments/recovery.py -> marketpulse-0.1.0/src/marketpulse/experiments
+copying src/marketpulse/experiments/research_audit.py -> marketpulse-0.1.0/src/marketpulse/experiments
+copying src/marketpulse/experiments/research_cycle.py -> marketpulse-0.1.0/src/marketpulse/experiments
+copying src/marketpulse/experiments/research_figures.py -> marketpulse-0.1.0/src/marketpulse/experiments
+copying src/marketpulse/experiments/research_report.py -> marketpulse-0.1.0/src/marketpulse/experiments
+copying src/marketpulse/experiments/robustness_analysis.py -> marketpulse-0.1.0/src/marketpulse/experiments
+copying src/marketpulse/experiments/robustness_data.py -> marketpulse-0.1.0/src/marketpulse/experiments
+copying src/marketpulse/experiments/statistics_experiment.py -> marketpulse-0.1.0/src/marketpulse/experiments
+copying src/marketpulse/experiments/summary.py -> marketpulse-0.1.0/src/marketpulse/experiments
+copying src/marketpulse/experiments/walkforward.py -> marketpulse-0.1.0/src/marketpulse/experiments
+copying src/marketpulse/experiments/walkforward_cli.py -> marketpulse-0.1.0/src/marketpulse/experiments
+copying src/marketpulse/models/__init__.py -> marketpulse-0.1.0/src/marketpulse/models
+copying src/marketpulse/models/baselines.py -> marketpulse-0.1.0/src/marketpulse/models
+copying src/marketpulse/models/classical.py -> marketpulse-0.1.0/src/marketpulse/models
+copying src/marketpulse/models/lstm.py -> marketpulse-0.1.0/src/marketpulse/models
+copying tests/test_adaptive_calibration.py -> marketpulse-0.1.0/tests
+copying tests/test_calibration.py -> marketpulse-0.1.0/tests
+copying tests/test_cli.py -> marketpulse-0.1.0/tests
+copying tests/test_expanded_analysis.py -> marketpulse-0.1.0/tests
+copying tests/test_final_synthesis.py -> marketpulse-0.1.0/tests
+copying tests/test_forecasting_pipeline.py -> marketpulse-0.1.0/tests
+copying tests/test_frozen_metrics.py -> marketpulse-0.1.0/tests
+copying tests/test_independent_validation.py -> marketpulse-0.1.0/tests
+copying tests/test_loader.py -> marketpulse-0.1.0/tests
+copying tests/test_prospective_intake.py -> marketpulse-0.1.0/tests
+copying tests/test_publication.py -> marketpulse-0.1.0/tests
+copying tests/test_real_datasets.py -> marketpulse-0.1.0/tests
+copying tests/test_recovery.py -> marketpulse-0.1.0/tests
+copying tests/test_reliability.py -> marketpulse-0.1.0/tests
+copying tests/test_research_foundations.py -> marketpulse-0.1.0/tests
+copying tests/test_robustness.py -> marketpulse-0.1.0/tests
+copying tests/test_scientific_review.py -> marketpulse-0.1.0/tests
+copying tests/test_validation.py -> marketpulse-0.1.0/tests
+copying tests/test_walkforward.py -> marketpulse-0.1.0/tests
+Writing marketpulse-0.1.0/setup.cfg
+Creating tar archive
+removing 'marketpulse-0.1.0' (and everything under it)
+* Building wheel from sdist
+* Getting build dependencies for wheel...
+running egg_info
+writing src/marketpulse.egg-info/PKG-INFO
+writing dependency_links to src/marketpulse.egg-info/dependency_links.txt
+writing entry points to src/marketpulse.egg-info/entry_points.txt
+writing requirements to src/marketpulse.egg-info/requires.txt
+writing top-level names to src/marketpulse.egg-info/top_level.txt
+reading manifest file 'src/marketpulse.egg-info/SOURCES.txt'
+writing manifest file 'src/marketpulse.egg-info/SOURCES.txt'
+* Building wheel...
+running bdist_wheel
+running build
+running build_py
+creating build/lib/marketpulse
+copying src/marketpulse/sequences.py -> build/lib/marketpulse
+copying src/marketpulse/scientific_review.py -> build/lib/marketpulse
+copying src/marketpulse/targets.py -> build/lib/marketpulse
+copying src/marketpulse/protocol.py -> build/lib/marketpulse
+copying src/marketpulse/__init__.py -> build/lib/marketpulse
+copying src/marketpulse/features.py -> build/lib/marketpulse
+copying src/marketpulse/frozen_metrics.py -> build/lib/marketpulse
+copying src/marketpulse/publication.py -> build/lib/marketpulse
+copying src/marketpulse/publication_assets.py -> build/lib/marketpulse
+creating build/lib/marketpulse/experiments
+copying src/marketpulse/experiments/expanded_analysis.py -> build/lib/marketpulse/experiments
+copying src/marketpulse/experiments/expanded_seeds.py -> build/lib/marketpulse/experiments
+copying src/marketpulse/experiments/research_cycle.py -> build/lib/marketpulse/experiments
+copying src/marketpulse/experiments/statistics_experiment.py -> build/lib/marketpulse/experiments
+copying src/marketpulse/experiments/benchmark.py -> build/lib/marketpulse/experiments
+copying src/marketpulse/experiments/recovery.py -> build/lib/marketpulse/experiments
+copying src/marketpulse/experiments/research_audit.py -> build/lib/marketpulse/experiments
+copying src/marketpulse/experiments/multiseed.py -> build/lib/marketpulse/experiments
+copying src/marketpulse/experiments/robustness_analysis.py -> build/lib/marketpulse/experiments
+copying src/marketpulse/experiments/walkforward.py -> build/lib/marketpulse/experiments
+copying src/marketpulse/experiments/prospective_intake.py -> build/lib/marketpulse/experiments
+copying src/marketpulse/experiments/final_synthesis.py -> build/lib/marketpulse/experiments
+copying src/marketpulse/experiments/independent_validation.py -> build/lib/marketpulse/experiments
+copying src/marketpulse/experiments/__init__.py -> build/lib/marketpulse/experiments
+copying src/marketpulse/experiments/calibration_experiment.py -> build/lib/marketpulse/experiments
+copying src/marketpulse/experiments/summary.py -> build/lib/marketpulse/experiments
+copying src/marketpulse/experiments/walkforward_cli.py -> build/lib/marketpulse/experiments
+copying src/marketpulse/experiments/cli.py -> build/lib/marketpulse/experiments
+copying src/marketpulse/experiments/figures.py -> build/lib/marketpulse/experiments
+copying src/marketpulse/experiments/research_figures.py -> build/lib/marketpulse/experiments
+copying src/marketpulse/experiments/research_report.py -> build/lib/marketpulse/experiments
+copying src/marketpulse/experiments/adaptive_study.py -> build/lib/marketpulse/experiments
+copying src/marketpulse/experiments/robustness_data.py -> build/lib/marketpulse/experiments
+creating build/lib/marketpulse/models
+copying src/marketpulse/models/baselines.py -> build/lib/marketpulse/models
+copying src/marketpulse/models/__init__.py -> build/lib/marketpulse/models
+copying src/marketpulse/models/classical.py -> build/lib/marketpulse/models
+copying src/marketpulse/models/lstm.py -> build/lib/marketpulse/models
+creating build/lib/marketpulse/evaluation
+copying src/marketpulse/evaluation/metrics.py -> build/lib/marketpulse/evaluation
+copying src/marketpulse/evaluation/partitions.py -> build/lib/marketpulse/evaluation
+copying src/marketpulse/evaluation/reliability.py -> build/lib/marketpulse/evaluation
+copying src/marketpulse/evaluation/adaptive_calibration.py -> build/lib/marketpulse/evaluation
+copying src/marketpulse/evaluation/regimes.py -> build/lib/marketpulse/evaluation
+copying src/marketpulse/evaluation/__init__.py -> build/lib/marketpulse/evaluation
+copying src/marketpulse/evaluation/preprocessing.py -> build/lib/marketpulse/evaluation
+copying src/marketpulse/evaluation/splits.py -> build/lib/marketpulse/evaluation
+copying src/marketpulse/evaluation/calibration.py -> build/lib/marketpulse/evaluation
+creating build/lib/marketpulse/data
+copying src/marketpulse/data/catalog.py -> build/lib/marketpulse/data
+copying src/marketpulse/data/__init__.py -> build/lib/marketpulse/data
+copying src/marketpulse/data/cli.py -> build/lib/marketpulse/data
+copying src/marketpulse/data/loader.py -> build/lib/marketpulse/data
+copying src/marketpulse/data/exceptions.py -> build/lib/marketpulse/data
+copying src/marketpulse/data/__main__.py -> build/lib/marketpulse/data
+copying src/marketpulse/data/validation.py -> build/lib/marketpulse/data
+running egg_info
+writing src/marketpulse.egg-info/PKG-INFO
+writing dependency_links to src/marketpulse.egg-info/dependency_links.txt
+writing entry points to src/marketpulse.egg-info/entry_points.txt
+writing requirements to src/marketpulse.egg-info/requires.txt
+writing top-level names to src/marketpulse.egg-info/top_level.txt
+reading manifest file 'src/marketpulse.egg-info/SOURCES.txt'
+writing manifest file 'src/marketpulse.egg-info/SOURCES.txt'
+copying src/marketpulse/py.typed -> build/lib/marketpulse
+installing to build/bdist.macosx-10.13-universal2/wheel
+running install
+running install_lib
+creating build/bdist.macosx-10.13-universal2/wheel
+creating build/bdist.macosx-10.13-universal2/wheel/marketpulse
+copying build/lib/marketpulse/sequences.py -> build/bdist.macosx-10.13-universal2/wheel/./marketpulse
+copying build/lib/marketpulse/scientific_review.py -> build/bdist.macosx-10.13-universal2/wheel/./marketpulse
+copying build/lib/marketpulse/targets.py -> build/bdist.macosx-10.13-universal2/wheel/./marketpulse
+creating build/bdist.macosx-10.13-universal2/wheel/marketpulse/experiments
+copying build/lib/marketpulse/experiments/expanded_analysis.py -> build/bdist.macosx-10.13-universal2/wheel/./marketpulse/experiments
+copying build/lib/marketpulse/experiments/expanded_seeds.py -> build/bdist.macosx-10.13-universal2/wheel/./marketpulse/experiments
+copying build/lib/marketpulse/experiments/research_cycle.py -> build/bdist.macosx-10.13-universal2/wheel/./marketpulse/experiments
+copying build/lib/marketpulse/experiments/statistics_experiment.py -> build/bdist.macosx-10.13-universal2/wheel/./marketpulse/experiments
+copying build/lib/marketpulse/experiments/benchmark.py -> build/bdist.macosx-10.13-universal2/wheel/./marketpulse/experiments
+copying build/lib/marketpulse/experiments/recovery.py -> build/bdist.macosx-10.13-universal2/wheel/./marketpulse/experiments
+copying build/lib/marketpulse/experiments/research_audit.py -> build/bdist.macosx-10.13-universal2/wheel/./marketpulse/experiments
+copying build/lib/marketpulse/experiments/multiseed.py -> build/bdist.macosx-10.13-universal2/wheel/./marketpulse/experiments
+copying build/lib/marketpulse/experiments/robustness_analysis.py -> build/bdist.macosx-10.13-universal2/wheel/./marketpulse/experiments
+copying build/lib/marketpulse/experiments/walkforward.py -> build/bdist.macosx-10.13-universal2/wheel/./marketpulse/experiments
+copying build/lib/marketpulse/experiments/prospective_intake.py -> build/bdist.macosx-10.13-universal2/wheel/./marketpulse/experiments
+copying build/lib/marketpulse/experiments/final_synthesis.py -> build/bdist.macosx-10.13-universal2/wheel/./marketpulse/experiments
+copying build/lib/marketpulse/experiments/independent_validation.py -> build/bdist.macosx-10.13-universal2/wheel/./marketpulse/experiments
+copying build/lib/marketpulse/experiments/__init__.py -> build/bdist.macosx-10.13-universal2/wheel/./marketpulse/experiments
+copying build/lib/marketpulse/experiments/calibration_experiment.py -> build/bdist.macosx-10.13-universal2/wheel/./marketpulse/experiments
+copying build/lib/marketpulse/experiments/summary.py -> build/bdist.macosx-10.13-universal2/wheel/./marketpulse/experiments
+copying build/lib/marketpulse/experiments/walkforward_cli.py -> build/bdist.macosx-10.13-universal2/wheel/./marketpulse/experiments
+copying build/lib/marketpulse/experiments/cli.py -> build/bdist.macosx-10.13-universal2/wheel/./marketpulse/experiments
+copying build/lib/marketpulse/experiments/figures.py -> build/bdist.macosx-10.13-universal2/wheel/./marketpulse/experiments
+copying build/lib/marketpulse/experiments/research_figures.py -> build/bdist.macosx-10.13-universal2/wheel/./marketpulse/experiments
+copying build/lib/marketpulse/experiments/research_report.py -> build/bdist.macosx-10.13-universal2/wheel/./marketpulse/experiments
+copying build/lib/marketpulse/experiments/adaptive_study.py -> build/bdist.macosx-10.13-universal2/wheel/./marketpulse/experiments
+copying build/lib/marketpulse/experiments/robustness_data.py -> build/bdist.macosx-10.13-universal2/wheel/./marketpulse/experiments
+copying build/lib/marketpulse/protocol.py -> build/bdist.macosx-10.13-universal2/wheel/./marketpulse
+copying build/lib/marketpulse/__init__.py -> build/bdist.macosx-10.13-universal2/wheel/./marketpulse
+copying build/lib/marketpulse/features.py -> build/bdist.macosx-10.13-universal2/wheel/./marketpulse
+creating build/bdist.macosx-10.13-universal2/wheel/marketpulse/models
+copying build/lib/marketpulse/models/baselines.py -> build/bdist.macosx-10.13-universal2/wheel/./marketpulse/models
+copying build/lib/marketpulse/models/__init__.py -> build/bdist.macosx-10.13-universal2/wheel/./marketpulse/models
+copying build/lib/marketpulse/models/classical.py -> build/bdist.macosx-10.13-universal2/wheel/./marketpulse/models
+copying build/lib/marketpulse/models/lstm.py -> build/bdist.macosx-10.13-universal2/wheel/./marketpulse/models
+copying build/lib/marketpulse/frozen_metrics.py -> build/bdist.macosx-10.13-universal2/wheel/./marketpulse
+copying build/lib/marketpulse/publication.py -> build/bdist.macosx-10.13-universal2/wheel/./marketpulse
+copying build/lib/marketpulse/publication_assets.py -> build/bdist.macosx-10.13-universal2/wheel/./marketpulse
+copying build/lib/marketpulse/py.typed -> build/bdist.macosx-10.13-universal2/wheel/./marketpulse
+creating build/bdist.macosx-10.13-universal2/wheel/marketpulse/evaluation
+copying build/lib/marketpulse/evaluation/metrics.py -> build/bdist.macosx-10.13-universal2/wheel/./marketpulse/evaluation
+copying build/lib/marketpulse/evaluation/partitions.py -> build/bdist.macosx-10.13-universal2/wheel/./marketpulse/evaluation
+copying build/lib/marketpulse/evaluation/reliability.py -> build/bdist.macosx-10.13-universal2/wheel/./marketpulse/evaluation
+copying build/lib/marketpulse/evaluation/adaptive_calibration.py -> build/bdist.macosx-10.13-universal2/wheel/./marketpulse/evaluation
+copying build/lib/marketpulse/evaluation/regimes.py -> build/bdist.macosx-10.13-universal2/wheel/./marketpulse/evaluation
+copying build/lib/marketpulse/evaluation/__init__.py -> build/bdist.macosx-10.13-universal2/wheel/./marketpulse/evaluation
+copying build/lib/marketpulse/evaluation/preprocessing.py -> build/bdist.macosx-10.13-universal2/wheel/./marketpulse/evaluation
+copying build/lib/marketpulse/evaluation/splits.py -> build/bdist.macosx-10.13-universal2/wheel/./marketpulse/evaluation
+copying build/lib/marketpulse/evaluation/calibration.py -> build/bdist.macosx-10.13-universal2/wheel/./marketpulse/evaluation
+creating build/bdist.macosx-10.13-universal2/wheel/marketpulse/data
+copying build/lib/marketpulse/data/catalog.py -> build/bdist.macosx-10.13-universal2/wheel/./marketpulse/data
+copying build/lib/marketpulse/data/__init__.py -> build/bdist.macosx-10.13-universal2/wheel/./marketpulse/data
+copying build/lib/marketpulse/data/cli.py -> build/bdist.macosx-10.13-universal2/wheel/./marketpulse/data
+copying build/lib/marketpulse/data/loader.py -> build/bdist.macosx-10.13-universal2/wheel/./marketpulse/data
+copying build/lib/marketpulse/data/exceptions.py -> build/bdist.macosx-10.13-universal2/wheel/./marketpulse/data
+copying build/lib/marketpulse/data/__main__.py -> build/bdist.macosx-10.13-universal2/wheel/./marketpulse/data
+copying build/lib/marketpulse/data/validation.py -> build/bdist.macosx-10.13-universal2/wheel/./marketpulse/data
+running install_egg_info
+Copying src/marketpulse.egg-info to build/bdist.macosx-10.13-universal2/wheel/./marketpulse-0.1.0-py3.13.egg-info
+running install_scripts
+creating build/bdist.macosx-10.13-universal2/wheel/marketpulse-0.1.0.dist-info/WHEEL
+creating '/tmp/marketpulse-final-dist/.tmp-_w2using/marketpulse-0.1.0-py3-none-any.whl' and adding 'build/bdist.macosx-10.13-universal2/wheel' to it
+adding 'marketpulse/__init__.py'
+adding 'marketpulse/features.py'
+adding 'marketpulse/frozen_metrics.py'
+adding 'marketpulse/protocol.py'
+adding 'marketpulse/publication.py'
+adding 'marketpulse/publication_assets.py'
+adding 'marketpulse/py.typed'
+adding 'marketpulse/scientific_review.py'
+adding 'marketpulse/sequences.py'
+adding 'marketpulse/targets.py'
+adding 'marketpulse/data/__init__.py'
+adding 'marketpulse/data/__main__.py'
+adding 'marketpulse/data/catalog.py'
+adding 'marketpulse/data/cli.py'
+adding 'marketpulse/data/exceptions.py'
+adding 'marketpulse/data/loader.py'
+adding 'marketpulse/data/validation.py'
+adding 'marketpulse/evaluation/__init__.py'
+adding 'marketpulse/evaluation/adaptive_calibration.py'
+adding 'marketpulse/evaluation/calibration.py'
+adding 'marketpulse/evaluation/metrics.py'
+adding 'marketpulse/evaluation/partitions.py'
+adding 'marketpulse/evaluation/preprocessing.py'
+adding 'marketpulse/evaluation/regimes.py'
+adding 'marketpulse/evaluation/reliability.py'
+adding 'marketpulse/evaluation/splits.py'
+adding 'marketpulse/experiments/__init__.py'
+adding 'marketpulse/experiments/adaptive_study.py'
+adding 'marketpulse/experiments/benchmark.py'
+adding 'marketpulse/experiments/calibration_experiment.py'
+adding 'marketpulse/experiments/cli.py'
+adding 'marketpulse/experiments/expanded_analysis.py'
+adding 'marketpulse/experiments/expanded_seeds.py'
+adding 'marketpulse/experiments/figures.py'
+adding 'marketpulse/experiments/final_synthesis.py'
+adding 'marketpulse/experiments/independent_validation.py'
+adding 'marketpulse/experiments/multiseed.py'
+adding 'marketpulse/experiments/prospective_intake.py'
+adding 'marketpulse/experiments/recovery.py'
+adding 'marketpulse/experiments/research_audit.py'
+adding 'marketpulse/experiments/research_cycle.py'
+adding 'marketpulse/experiments/research_figures.py'
+adding 'marketpulse/experiments/research_report.py'
+adding 'marketpulse/experiments/robustness_analysis.py'
+adding 'marketpulse/experiments/robustness_data.py'
+adding 'marketpulse/experiments/statistics_experiment.py'
+adding 'marketpulse/experiments/summary.py'
+adding 'marketpulse/experiments/walkforward.py'
+adding 'marketpulse/experiments/walkforward_cli.py'
+adding 'marketpulse/models/__init__.py'
+adding 'marketpulse/models/baselines.py'
+adding 'marketpulse/models/classical.py'
+adding 'marketpulse/models/lstm.py'
+adding 'marketpulse-0.1.0.dist-info/METADATA'
+adding 'marketpulse-0.1.0.dist-info/WHEEL'
+adding 'marketpulse-0.1.0.dist-info/entry_points.txt'
+adding 'marketpulse-0.1.0.dist-info/top_level.txt'
+adding 'marketpulse-0.1.0.dist-info/RECORD'
+removing build/bdist.macosx-10.13-universal2/wheel
+Successfully built marketpulse-0.1.0.tar.gz and marketpulse-0.1.0-py3-none-any.whl
